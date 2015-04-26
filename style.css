@@ -1,0 +1,45 @@
+.textbox { 
+  border: 1px solid #000; 
+  border-radius: 5px; 
+  padding: 4px;
+} 
+
+.textbox:focus { 
+  border: 1px solid #FFF; 
+} 
+
+h1 {
+  font-family: monospace;
+}
+
+div {
+  text-align: center
+}
+
+input {
+  font-family: monospace;
+  font-size: 14px;
+  width: 50%;
+  margin: 5px;
+}
+
+textarea {
+  font-size: 14px;
+  width: 50%;
+  margin: 5px;
+  resize: none;
+}
+
+@media screen and (max-width: 500px) {
+  
+  div {
+    margin-right: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
