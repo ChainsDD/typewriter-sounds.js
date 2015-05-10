@@ -79,7 +79,7 @@ function createEventListener() {
 		textareaTag[i].addEventListener("keyup", function(event) {
 			if (event.keyCode === 9) {
 				playAudio("ding");
-			} else if (event.keyCode == 13) {
+			} else if (event.keyCode === 13) {
 				playAudio("slide");
 			} else if (event.keyCode === 32) {
 				playAudio("space");
