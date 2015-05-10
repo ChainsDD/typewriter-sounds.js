@@ -62,7 +62,7 @@ function createEventListener() {
 	var inputTag = document.getElementsByTagName("input");
 
     	for (var i=0;i<inputTag.length;i++) {
-		inputTag[i].addEventListener("keydown", function(event) {
+		inputTag[i].addEventListener("keyup", function(event) {
 			if (event.keyCode === 9) {
 				playAudio("ding");
 			} else if (event.keyCode === 32) {
@@ -76,7 +76,7 @@ function createEventListener() {
 	var textareaTag = document.getElementsByTagName("textarea");
 
 	for (var i=0;i<textareaTag.length;i++) {
-		textareaTag[i].addEventListener("keydown", function(event) {
+		textareaTag[i].addEventListener("keyup", function(event) {
 			if (event.keyCode === 9) {
 				playAudio("ding");
 			} else if (event.keyCode == 13) {
